@@ -15,3 +15,16 @@ branch
 git checkout -b new-feature
 git checkout master
 git branch
+git merge
+
+staged and commit same time
+git commit -am "message"
+
+rename master to main
+git checkout master
+git branch -M main
+
+push to github
+git remote add origin https://github.com/cyrilvergara/Test-Repo.git
+git remote
+git push -u origin main (-u meaning remember these settings)
